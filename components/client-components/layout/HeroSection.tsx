@@ -39,7 +39,7 @@ export function HeroSection() {
             alt="hero-image-overlay"
             width={300}
             height={300}
-            className="absolute top-20 left-[110px] h-full w-full object-cover rotate-340"
+            className="absolute top-20 left-27.5 h-full w-full object-cover rotate-340"
           />
         </div>
       </div>
@@ -61,7 +61,7 @@ export function HeroSection() {
             <ChevronDownIcon className="h-4 w-4 shrink-0 text-muted-foreground" />
           </div>
           <div className="p-3">
-            <Button className=" rounded-lg bg-brand-text-color px-6 h-10 w-full text-sm font-semibold rounded-none text-primary-foreground hover:bg-brand-text-color/90 hover:cursor-pointer">
+            <Button className="bg-brand-text-color px-6 h-10 w-full text-sm font-semibold rounded-none text-primary-foreground hover:bg-brand-text-color/90 hover:cursor-pointer">
               Search my job
             </Button>
           </div>
