@@ -3,13 +3,13 @@ import Image from 'next/image';
 
 export const JobPostingSection = () => {
   return (
-    <div className="px-4 flex flex-col gap-4 mt-8 bg-brand-text-color py-24 relative overflow-hidden md:flex-row md:pb-0 md:pt-10 md:mx-32">
-      <div className=" md:flex md:flex-col md:justify-center md:gap-4 md:w-1/2">
+    <div className="px-4 flex flex-col gap-4 mt-8 bg-brand-text-color py-24 relative overflow-hidden md:flex-row md:pb-0 md:pt-10 md:mx-32 ">
+      <div className="flex flex-col justify-center items-center gap-4 md:w-1/2">
         <h1 className=" text-center text-5xl font-bold text-white md:text-start md:w-3/4">
           Start posting jobs today
         </h1>
         <p className="text-center text-white md:text-start">start posting jobs for only $10</p>
-        <Button className="rounded-none bg-white text-brand-text-color md:w-3/4">
+        <Button className="rounded-none bg-white text-brand-text-color w-1/2">
           Sign Up for free
         </Button>
       </div>
